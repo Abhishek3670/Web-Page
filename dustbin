@@ -1,0 +1,94 @@
+.info-pc-1
+{
+    display: flex;
+    margin: auto;
+}
+.info-pc-2
+{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto;
+}
+.pcOverview
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px 0;
+    padding: 20px 0;
+    color: black;
+    font-size: 34px;
+    font-family: sans-serif;
+}
+.pcOverview .btn
+{
+    margin: 10px;
+    box-sizing: border-box;
+    border:2px  solid #F95700FF;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#F95700FF;
+    font-size: 24px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.pcOverview .btn:hover
+{
+    background: #F95700FF;
+    color: #ffffff;
+}
+
+
+<div class="info-pc-1">
+            <div class="img"><img src="miniCabinet.png" alt="pc"></div>
+            <div class="pcOverview">
+            <p>This Mini-PC quipped with 10th Gen Intel® Core™ and Pentium® Gold /Celeron® processors for LGA 1200 socket on a ITX motherboard 
+                which make this PC surprisingly small.
+                It support both GTX and RTX graphic card.It has enough room for air easily ventilate. 
+                It is also upgradable to water cooling system if you want 
+                your PC to be super cool and super quiet.          
+            </p>
+            <a href="#" type="button" class="btn">BUY</a>
+        </div>
+        </div>
+        <div class="info-pc-2">
+            <div class="img"><img src="miniCabinet-2.png" style="transform: scaleX(-1);" alt="pc"></div>
+            <div class="pcOverview">
+            <p>This Mini-PC quipped with  AMD 3rd Gen Ryzen™/ 2nd Gen Ryzen™/ 2nd Gen Ryzen™ with Radeon™ Vega Graphics/ Ryzen™ with Radeon™ Vega Graphics Processors 
+                on a ITX motherboard which make this PC surprisingly small.
+                It support both GTX and RTX graphic card.It has enough room for air easily ventilate. 
+                It is also upgradable to water cooling system if you want 
+                your PC to be super cool and super quiet.          
+            </p>
+            <a href="#" type="button" class="btn">BUY</a>
+        </div>
+        </div>
+        <div class="info-pc-1">
+            <div class="img"><img src="miniCabinet-3.png" alt="pc"></div>
+            <div class="pcOverview">
+            <p>This Tower-PC quipped with 10th Gen Intel® Core™ and Pentium® Gold /Celeron® processors for LGA 1200 socket on a  ATX motherboard 
+                which make this PC to ugrade more HDD, SDD, Fans etc.
+                It support both GTX and RTX graphic card.
+                It is also upgradable to water cooling system if you want 
+                your PC to be super cool and super quiet.          
+            </p>
+            <a href="#" type="button" class="btn">BUY</a>
+        </div>
+        </div>
+        <div class="info-pc-2">
+            <div class="img"><img src="miniCabinet-4.png"alt="pc"></div>
+            <div class="pcOverview">
+            <p>This Tower-PC quipped with 2nd and 3rd Gen AMD Ryzen™ / Ryzen™ 4000 G-Serie s/ Ryzen™ with Radeon™ Vega Graphics and 2nd Gen AMD Ryzen™ with Radeon™ Graphics Desktop Processors for Socket AM4 on a  ATX motherboard 
+                which make this PC to ugrade more HDD, SDD, Fans etc.
+                It support both GTX and RTX graphic card.
+                It is also upgradable to water cooling system if you want 
+                your PC to be super cool and super quiet.          
+            </p>
+            <a href="#" type="button" class="btn">BUY</a>
+        </div>
+        </div>s
